@@ -6,6 +6,9 @@ const client = new Client({
 const { token } = require(`${__dirname}/src/public/botconfig.json`);
 const { slash } = require(`${__dirname}/src/utils/handler/slash.js`);
 const { eventos } = require(`${__dirname}/src/utils/handler/eventos.js`);
+const { botones } = require(`${__dirname}/src/utils/handler/botones.js`);
+
+botones(fs, client, Collection)
 slash(fs, client, Collection)
 eventos(fs, client, MessageEmbed, Util)
 

@@ -1,18 +1,6 @@
 let interacciones = [{
-    name: "interaccion",
+    name: "botones",
     description: "Interacciones",
-    options: [{
-        name: "interaccion",
-        description: "xd",
-        type: "STRING",
-        required: true
-    },
-    {
-        name: "hola",
-        description: "olaxd",
-        type: "NUMBER",
-        required: true
-    }]
 },
 {
     name: "avatar",
